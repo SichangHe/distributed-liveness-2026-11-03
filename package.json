@@ -1,0 +1,16 @@
+{
+  "name": "harsha-meeting-slides",
+  "private": true,
+  "scripts": {
+    "dev": "slidev --remote",
+    "build": "slidev build",
+    "export": "slidev export --output harsha-meeting.pdf --per-slide --timeout 90000 --wait-until domcontentloaded"
+  },
+  "dependencies": {
+    "@slidev/cli": "^52.0.0",
+    "@slidev/theme-default": "^0.25.0"
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.56.0"
+  }
+}
